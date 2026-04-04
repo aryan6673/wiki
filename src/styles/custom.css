@@ -1,7 +1,5 @@
-/* Custom styles for Hack Club Wiki */
-
 :root {
-  --sl-color-accent: var(--hc-red); /* Use Hack Club red */
+  --sl-color-accent: var(--hc-red);
   --sl-color-text-accent: var(--hc-red);
 }
 
