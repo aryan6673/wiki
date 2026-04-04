@@ -8,7 +8,10 @@ export default defineConfig({
 		starlight({
 			title: 'Hack Club Wiki',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackclub/hackclub' }],
-			customCss: ['./src/styles/custom.css'],
+			customCss: [
+				'./globals.css',
+				'./src/styles/custom.css'
+			],
 			sidebar: [
 				{
 					label: 'Home',
