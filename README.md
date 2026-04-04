@@ -1,49 +1,34 @@
-# Starlight Starter Kit: Basics
+# Hack Club Wiki
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+This is a community wiki for Hack Club members. Built with Astro and Starlight.
 
-```
-npm create astro@latest -- --template starlight
-```
+## Adding content
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Create new Markdown files in these folders:
 
-## 🚀 Project Structure
+- `src/content/community/` - for club announcements, guides, and tips
+- `src/content/projects/` - for project write-ups and demos
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+Each file needs a title in the frontmatter:
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+```md
+---
+title: Your Page Title
+description: Short description
+---
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Then write your content in plain Markdown. The sidebar updates automatically.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## Running locally
 
-Static assets, like favicons, can be placed in the `public/` directory.
+```bash
+npm install
+npm run dev
+```
 
-## 🧞 Commands
+Open http://localhost:4321 to see the site.
 
-All commands are run from the root of the project, from a terminal:
+## Contributing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Add your Markdown files, commit, and push. That's it.
