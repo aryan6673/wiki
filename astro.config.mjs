@@ -12,6 +12,9 @@ export default defineConfig({
 				alt: 'Hack Club Logo',
 			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackclub/wiki' }],
+			editLink: {
+				baseUrl: 'https://github.com/hackclub/wiki/edit/main/',
+			},
 			customCss: [
 				'./globals.css',
 				'./src/styles/custom.css'
