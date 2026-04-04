@@ -10,15 +10,18 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackclub/hackclub' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Home',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Welcome', slug: 'docs' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Community',
+					autogenerate: { directory: 'community' },
+				},
+				{
+					label: 'Projects',
+					autogenerate: { directory: 'projects' },
 				},
 			],
 		}),
