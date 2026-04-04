@@ -119,7 +119,7 @@ starlight-toc nav ul li a {
 
 starlight-toc nav ul li a:hover {
   color: var(--hc-ink) !important;
-  border-left-color: var(--hc-blue);
+  border-left-color: var(--hc-orange);
   background: var(--surface-quiet);
   border-radius: 0 4px 4px 0;
 }
