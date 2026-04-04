@@ -11,7 +11,7 @@ export default defineConfig({
 				src: './public/logo.png',
 				alt: 'Hack Club Logo',
 			},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackclub/hackclub' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackclub/wiki' }],
 			customCss: [
 				'./globals.css',
 				'./src/styles/custom.css'

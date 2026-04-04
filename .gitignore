@@ -17,5 +17,8 @@ pnpm-debug.log*
 .env
 .env.production
 
+# ignore github folder
+.github/
+
 # macOS-specific files
 .DS_Store
