@@ -1,6 +1,10 @@
 :root {
   --sl-color-accent: var(--hc-red);
   --sl-color-text-accent: var(--hc-red);
+  --sl-color-bg: var(--hc-paper);
+  --sl-color-text: var(--hc-ink);
+  --sl-color-bg-nav: var(--surface-main);
+  --sl-color-bg-sidebar: var(--surface-soft);
 }
 
 .hero {
