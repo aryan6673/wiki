@@ -144,3 +144,40 @@ starlight-toc nav ul li a[aria-current="true"] {
   border-left-color: var(--hc-red);
   font-weight: 700;
 }
+
+
+[data-theme="dark"] sidebar {
+  border-right: 2px solid rgba(255,255,255,0.06) !important;
+  background-color: #0b0b10 !important;
+  color: #e6e6e6 !important;
+}
+
+[data-theme="dark"] .sidebar-pane a {
+  color: #cfcfcf !important;
+  background-color: transparent !important;
+  border-left-color: transparent !important;
+}
+
+[data-theme="dark"] .sidebar-pane a:hover {
+  background-color: rgba(255,255,255,0.02) !important;
+  color: #ffffff !important;
+  border-left-color: var(--hc-orange) !important;
+  transform: translateX(2px);
+}
+
+[data-theme="dark"] .sidebar-pane a[aria-current="page"] {
+  background-color: rgba(236,55,80,0.08) !important;
+  color: #ffffff !important;
+  border-left-color: var(--hc-red) !important;
+  font-weight: 700 !important;
+}
+
+[data-theme="dark"] starlight-toc nav ul li a {
+  color: #cfcfcf !important;
+}
+
+[data-theme="dark"] starlight-toc nav ul li a:hover {
+  background: rgba(255,255,255,0.02) !important;
+  color: #ffffff !important;
+  border-left-color: var(--hc-orange) !important;
+}
