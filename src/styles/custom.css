@@ -15,15 +15,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  background: white;
+  background: linear-gradient(135deg, var(--hc-blue) 0%, var(--hc-purple) 100%);
 }
 
 .hero h1 {
-  color: black;
+  color: white;
 }
 
 .hero p {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .card {
