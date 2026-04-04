@@ -1,12 +1,12 @@
 /* Custom styles for Hack Club Wiki */
 
 :root {
-  --sl-color-accent: #ec4899; /* Pink accent for Hack Club vibe */
-  --sl-color-text-accent: #ec4899;
+  --sl-color-accent: var(--hc-red); /* Use Hack Club red */
+  --sl-color-text-accent: var(--hc-red);
 }
 
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--hc-blue) 0%, var(--hc-purple) 100%);
 }
 
 .hero h1 {
