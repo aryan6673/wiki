@@ -6,6 +6,12 @@
   --sl-color-bg-nav: var(--surface-main);
   --sl-color-bg-sidebar: var(--surface-soft);
   --sl-font: "Phantom Sans", "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  --sl-font-headings: "Phantom Sans", "Space Grotesk", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--sl-font-headings);
+  font-weight: 800 !important;
 }
 
 .hero {
