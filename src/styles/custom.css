@@ -62,23 +62,23 @@ sidebar {
 }
 
 .sidebar-pane a {
-  border-radius: var(--radius);
-  transition: all 0.1s ease-in-out;
+  border-radius: 0 6px 6px 0 !important;
+  transition: all 0.2s ease-in-out;
+  border-left: 2px solid transparent !important;
 }
 
 .sidebar-pane a:hover {
-  background-color: var(--highlight-bg) !important;
+  background-color: var(--surface-quiet) !important;
   color: var(--hc-ink) !important;
-  transform: translateX(4px);
-  border-color: var(--hc-border) !important;
-  box-shadow: 2px 2px 0 var(--hc-border);
+  border-left-color: var(--hc-orange) !important;
+  transform: translateX(2px);
 }
 
 .sidebar-pane a[aria-current="page"] {
-  background-color: var(--hc-red) !important;
-  color: white !important;
-  box-shadow: 2px 2px 0 var(--hc-border);
-  border: 1px solid var(--hc-border);
+  background-color: var(--surface-quiet) !important;
+  color: var(--hc-red) !important;
+  border-left-color: var(--hc-red) !important;
+  font-weight: 700 !important;
 }
 
 .hero {
