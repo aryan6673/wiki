@@ -1,18 +1,33 @@
 :root {
   --sl-color-accent: var(--hc-red);
   --sl-color-text-accent: var(--hc-red);
-  --sl-color-bg: #ffffff;
+  --sl-color-bg: var(--hc-paper);
   --sl-color-text: var(--hc-ink);
-  --sl-color-bg-nav: #ffffff;
-  --sl-color-bg-sidebar: #ffffff;
+  --sl-color-bg-nav: var(--surface-main);
+  --sl-color-bg-sidebar: var(--surface-soft);
   --sl-font: "Phantom Sans", "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
   --sl-font-headings: "Phantom Sans", "Space Grotesk", sans-serif;
-  --sl-color-bg-overlay: transparent !important;
-  --sl-color-backdrop-overlay: transparent !important;
 }
 
-body, html, .page, .sl-backdrop, [data-theme="light"] {
-  background: white !important;
+/* Light theme page background (original gradients) */
+[data-theme="light"] body,
+[data-theme="light"] html,
+[data-theme="light"] .page,
+[data-theme="light"] .sl-backdrop {
+  background:
+    radial-gradient(circle at 12% 14%, var(--page-glow-1), transparent 40%),
+    radial-gradient(circle at 88% 18%, var(--page-glow-2), transparent 38%),
+    linear-gradient(135deg, var(--page-grad-start) 0%, var(--page-grad-end) 100%);
+  background-image: none !important;
+}
+
+/* Dark theme background */
+[data-theme="dark"] body,
+[data-theme="dark"] html,
+[data-theme="dark"] .page,
+[data-theme="dark"] .sl-backdrop {
+  background: #0b0b10 !important;
+  color: #e6e6e6 !important;
   background-image: none !important;
 }
 
