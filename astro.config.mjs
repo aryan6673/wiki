@@ -11,9 +11,9 @@ export default defineConfig({
 				src: './public/logo.png',
 				alt: 'Hack Club Logo',
 			},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackclub/wiki' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/aryan6673/wiki' }],
 			editLink: {
-				baseUrl: 'https://github.com/hackclub/wiki/edit/main/',
+				baseUrl: 'https://github.com/aryan6673/wiki/edit/main/',
 			},
 			customCss: [
 				'./globals.css',
