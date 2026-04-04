@@ -108,3 +108,24 @@ sidebar {
   transform: translateY(-2px) !important;
   box-shadow: 0 6px 0 rgba(0,0,0,0.3) !important;
 }
+
+/* "On this page" TOC */
+starlight-toc nav ul li a {
+  border-left: 2px solid transparent;
+  padding-left: 10px;
+  transition: all 0.2s ease;
+  color: var(--hc-muted);
+}
+
+starlight-toc nav ul li a:hover {
+  color: var(--hc-ink) !important;
+  border-left-color: var(--hc-blue);
+  background: var(--surface-quiet);
+  border-radius: 0 4px 4px 0;
+}
+
+starlight-toc nav ul li a[aria-current="true"] {
+  color: var(--hc-red) !important;
+  border-left-color: var(--hc-red);
+  font-weight: 700;
+}
