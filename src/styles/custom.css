@@ -32,3 +32,13 @@
   transform: translateY(-2px);
   box-shadow: 8px 8px 0 var(--hc-border) !important;
 }
+
+header.header {
+  border-bottom: 2px solid var(--hc-border) !important;
+  box-shadow: 0 4px 0 var(--hc-border) !important;
+  background-color: var(--topbar-bg) !important;
+}
+
+header.header a {
+  color: white !important;
+}
