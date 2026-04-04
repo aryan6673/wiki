@@ -12,7 +12,7 @@ export default defineConfig({
 				{
 					label: 'Home',
 					items: [
-						{ label: 'Welcome', slug: 'docs' },
+						{ label: 'Welcome', slug: 'index' },
 					],
 				},
 				{
