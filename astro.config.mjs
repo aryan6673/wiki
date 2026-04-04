@@ -7,6 +7,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Hack Club Wiki',
+			logo: {
+				src: '/logo.png',
+				alt: 'Hack Club Logo',
+			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackclub/hackclub' }],
 			customCss: [
 				'./globals.css',
