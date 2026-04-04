@@ -42,3 +42,28 @@ header.header {
 header.header a {
   color: white !important;
 }
+
+sidebar {
+  border-right: 2px solid var(--hc-border) !important;
+  background-color: var(--surface-soft) !important;
+}
+
+.sidebar-pane a {
+  border-radius: var(--radius);
+  transition: all 0.1s ease-in-out;
+}
+
+.sidebar-pane a:hover {
+  background-color: var(--highlight-bg) !important;
+  color: var(--hc-ink) !important;
+  transform: translateX(4px);
+  border-color: var(--hc-border) !important;
+  box-shadow: 2px 2px 0 var(--hc-border);
+}
+
+.sidebar-pane a[aria-current="page"] {
+  background-color: var(--hc-red) !important;
+  color: white !important;
+  box-shadow: 2px 2px 0 var(--hc-border);
+  border: 1px solid var(--hc-border);
+}
