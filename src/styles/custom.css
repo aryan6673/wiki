@@ -1,12 +1,19 @@
 :root {
   --sl-color-accent: var(--hc-red);
   --sl-color-text-accent: var(--hc-red);
-  --sl-color-bg: var(--hc-paper);
+  --sl-color-bg: #ffffff;
   --sl-color-text: var(--hc-ink);
-  --sl-color-bg-nav: var(--surface-main);
-  --sl-color-bg-sidebar: var(--surface-soft);
+  --sl-color-bg-nav: #ffffff;
+  --sl-color-bg-sidebar: #ffffff;
   --sl-font: "Phantom Sans", "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
   --sl-font-headings: "Phantom Sans", "Space Grotesk", sans-serif;
+  --sl-color-bg-overlay: transparent !important;
+  --sl-color-backdrop-overlay: transparent !important;
+}
+
+body, html, .page, .sl-backdrop, [data-theme="light"] {
+  background: white !important;
+  background-image: none !important;
 }
 
 h1, h2, h3, h4, h5, h6 {

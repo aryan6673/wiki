@@ -75,10 +75,7 @@ body {
 body {
   font-family: "Phantom Sans", "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
   color: var(--hc-ink);
-  background:
-    radial-gradient(circle at 12% 14%, var(--page-glow-1), transparent 40%),
-    radial-gradient(circle at 88% 18%, var(--page-glow-2), transparent 38%),
-    linear-gradient(135deg, var(--page-grad-start) 0%, var(--page-grad-end) 100%);
+  background: #ffffff;
 }
 
 a {
@@ -127,10 +124,7 @@ a {
   margin: 0;
   border: none;
   border-radius: 0;
-  background:
-    radial-gradient(circle at 12% 14%, var(--page-glow-1), transparent 40%),
-    radial-gradient(circle at 88% 18%, var(--page-glow-2), transparent 38%),
-    linear-gradient(135deg, var(--page-grad-start) 0%, var(--page-grad-end) 100%);
+  background: white;
   box-shadow: none;
   overflow: visible;
   display: flex;
