@@ -23,16 +23,18 @@ This wiki is built with Astro and Starlight so Hack Club members can add content
 Use the sidebar to explore community guides, project write-ups, and club resources.
 
 <CardGrid stagger>
-	<Card title="Create new pages" icon="add-document">
-		Add Markdown files under `src/content/community` or `src/content/projects`.
+	<Card title="Community Hub" icon="users">
+		Browse community posts and contribute announcements, event notes, or how-tos.
+		<a href="/community/">Open community section</a>
 	</Card>
-	<Card title="Organize your wiki" icon="folder">
-		Update `astro.config.mjs` to add sections and navigation.
+	<Card title="Project Showcase" icon="sparkles">
+		See club projects and add your own build logs or demos.
+		<a href="/projects/">Open projects section</a>
 	</Card>
-	<Card title="Share with the club" icon="chat-bubble">
-		Use this site to publish club events, tutorials, and member projects.
+	<Card title="Start contributing" icon="pencil">
+		Create a new Markdown file under `src/content/community` or `src/content/projects`.
 	</Card>
-	<Card title="Keep it open" icon="sparkles">
-		Everyone in the community can contribute by adding Markdown content.
+	<Card title="Edit navigation" icon="setting">
+		Customize `astro.config.mjs` to add sections, labels, and new wiki pages.
 	</Card>
 </CardGrid>
