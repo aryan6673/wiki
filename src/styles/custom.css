@@ -19,3 +19,16 @@
 .hero p {
   color: rgba(255, 255, 255, 0.9);
 }
+
+.card {
+  border: 2px solid var(--hc-border) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-hard) !important;
+  background: var(--surface-main) !important;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 8px 8px 0 var(--hc-border) !important;
+}
